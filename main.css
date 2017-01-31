@@ -1,0 +1,164 @@
+body {
+    background-color: #c4c4c4;
+}
+
+h3 {
+    display: none;
+}
+
+
+/**************************************************
+					Github
+**************************************************/
+
+.github {
+    float: left;
+    height: 75px;
+    width: 100px;
+    position: absolute;
+    left: 1%;
+    top: 3%;
+    transform: scale(1);
+}
+
+.github:hover {
+    transform: scale(1.1);
+}
+
+
+/**************************************************
+					Resume
+**************************************************/
+
+.resume {
+    float: right;
+    height: 75px;
+    width: 100px;
+    position: absolute;
+    right: 1%;
+    top: 3%;
+    transform: scale(1);
+}
+
+.resume:hover {
+    transform: scale(1.1);
+}
+
+
+/**************************************************
+					Projects
+**************************************************/
+
+*,
+*::before,
+*::after {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+figure {
+    width: 250px;
+    height: 175px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+}
+
+figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: table;
+    font-size: 20px;
+}
+
+figcaption div {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    top: 20px;
+    opacity: 0;
+    color: #2c3e50;
+    text-transform: uppercase;
+}
+
+figcaption div:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    bottom: 40%;
+    text-align: center;
+    margin: auto;
+    width: 0%;
+    height: 2px;
+    background: #2c3e50;
+}
+
+figure img {
+    -webkit-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+figure:hover figcaption {
+    background: rgba(225, 225, 225, 0.8);
+}
+
+figcaption:hover div {
+    opacity: 1;
+    top: 0;
+}
+
+figcaption:hover div:after {
+    width: 50%;
+}
+
+figure:hover img {
+    -webkit-transform: scale3d(1.2, 1.2, 1);
+    transform: scale3d(1.2, 1.2, 1);
+}
+
+/**************************************************
+					Additional Projects
+**************************************************/
+.extraProjects {
+	position: absolute;
+	margin: auto;
+	list-style-position:inside;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-bottom: 50px;
+}
+
+/**************************************************
+					Media Queries
+**************************************************/
+@media (max-device-width:639px) {
+    h3 {
+        display: block;
+    }
+    a {
+        text-decoration: none !important;
+        color: #2c3e50;
+    }
+}

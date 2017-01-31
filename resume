@@ -1,0 +1,158 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+img {
+    margin: 0px 0 !important;
+}
+
+body{
+    color: white !important;
+}
+
+</style>
+
+
+<title>Kevin Baragona's Resume</title>
+
+<xmp theme="cyborg" style="display:none;">
+
+
+
+
+
+
+
+5532 San Patricio Dr.
+
+Santa Barbara CA 93111
+
+kmbaragona@gmail.com
+
+(805) 364-3376
+
+## Employment:
+
+* Jan 2016 - Present: Director of Product Development at [Underdog Media](http://www.underdogmedia.com/)
+  * Driving the engineering behind new technology development
+  * Developing new advertising product ideas through to completion
+* Nov 2014 - Jan 2016: Software Consultant for two startup companies:
+    * [ParentSquare Inc](https://www.parentsquare.com/) - connects schools to parents
+    * [Opus Logica Inc](http://opuslogica.com/) - a technology company (formerly [The Okori Group](http://theokorigroup.com/))
+    * Tools used:
+      * Ruby on Rails
+      * AWS
+      * Javascript
+      * AngularJS
+      * MySQL
+      * C++
+      * Mobile App Development
+      * Embedded Electronics (GPS dog tracker: [Where's Nellie](http://wheresnellie.com/))
+      * NetSuite
+* Aug 2011 - Nov 2014:  Software Engineer at [Underdog Media](http://www.underdogmedia.com/)
+  * Building technology for online advertising
+  * DB driven web application design, implementation, maintenance
+  * Database design and optimization
+  * Data processing, statistics, visualization
+  * HTTP server design, optimization, maintenance
+  * Integrations with third parties:
+    *  RTB bidders, for both Google and OpenRTB
+    *  Built an OpenRTB auction server (to sell web traffic in real time). Built the core server and integrated it with multiple companies.
+    *  Header Bidding (contributor to Prebid.js)
+
+## Education:
+
+* Part time student at Santa Barbara City College
+* Math through Calculus, Diff EQ. and Linear Algebra
+* Physics through E & M, thermodynamics
+* CS coursework:
+  * C
+  * Java
+  * Assembly Language
+  * Data Structures
+  * OOP Design Patterns
+  * iOS Programming
+  * Discrete Math
+  * Digital Logic
+  * Computer Architecture
+
+## Skills:
+
+* Languages (with 10+ years experience):
+  * JavaScript, HTML, CSS
+  * C
+  * Perl
+* Other Languages:
+  * Java
+  * C#
+  * Python
+  * Ruby
+  * Bash scripting
+  * Objective C and Xcode
+  * Mathematica
+  * Haskell
+  * x86 Assembly
+* Libraries / Frameworks:
+  * Rails
+  * AngularJS
+  * Ionic
+  * jQuery
+  * OpenLayers v3
+* OpenGL
+  * WebGL
+  * Three.JS
+* Source Control:
+  * SVN
+  * Git
+* Operating Systems:
+  * Linux
+  * OSX
+* Configuration Management
+  * Ansible
+* Databases:
+  * MySQL - 5 years
+  * PostgreSQL
+  * Redis
+  * Hadoop
+  * Google BigQuery
+* Computer Science:
+  * Data structures
+* Embedded:
+  * C on bare metal (ARM32, AVR8/Arduino, PIC)
+  * PIC Assembly
+  * Xilinx FPGA and VHDL
+  * Motor control (a [CNC mill from scratch](http://twoguysandamill.blogspot.com/))
+  * Sensor input
+  * Interrupts, Timers
+  * SPI, i2c, and RS-232
+  * Radio Electronics (GPS dog tracker: [Where's Nellie](http://wheresnellie.com/))
+
+## Interests:
+
+* Front end design
+* Back end design
+* Optimizing code
+* Optimizing tables
+* Hardware projects
+* Having fun
+
+
+Values:
+
+  * Simplicity in engineering
+
+
+
+
+</xmp>
+</head>
+<body style='margin:0px;'>
+
+
+<script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+
+</body>
+</html>
